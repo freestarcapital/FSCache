@@ -1,2 +1,2 @@
 # FSCache
-Freestar port of EGOCache
+Freestar port of FSCache
