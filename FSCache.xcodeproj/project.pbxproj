@@ -62,7 +62,7 @@
 		28AE5D631F92AEA000C1BA82 = {
 			isa = PBXGroup;
 			children = (
-				28AE5DD61F92B1C600C1BA82 /* Sources */,
+				28AE5DD61F92B1C600C1BA82 /* Source */,
 				28AE5DD91F92B1CD00C1BA82 /* Resources */,
 				28AE5D6E1F92AEA000C1BA82 /* Products */,
 			);
@@ -79,13 +79,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		28AE5DD61F92B1C600C1BA82 /* Sources */ = {
+		28AE5DD61F92B1C600C1BA82 /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				28AE5DD81F92B1C600C1BA82 /* FSCache.h */,
 				28AE5DD71F92B1C600C1BA82 /* FSCache.m */,
 			);
-			path = Sources;
+			path = Source;
 			sourceTree = "<group>";
 		};
 		28AE5DD91F92B1CD00C1BA82 /* Resources */ = {

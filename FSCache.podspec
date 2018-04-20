@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author   = { "Freestar Mobile Engineering" => "sdk@freestar.io" }
   s.source       = { :git => "https://github.com/freestarcapital/FSCache.git", :tag => s.version.to_s }
   s.requires_arc = true
-  s.source_files = "Sources/*.{h,m}"
+  s.source_files = "Source/*.{h,m}"
   s.osx.deployment_target  = "10.8"
   s.ios.deployment_target  = "7.0"
   s.tvos.deployment_target = "9.0"
