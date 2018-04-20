@@ -48,6 +48,9 @@ FOUNDATION_EXPORT const unsigned char FSCacheVersionString[];
 // Global cache for easy use
 + (nonnull instancetype)globalCache;
 
+// Prefixed cache sandbox
++ (instancetype)cacheWithPrefix:(NSString*)prefix;
+
 // Opitionally create a different FSCache instance with it's own cache directory
 - (nonnull instancetype)initWithCacheDirectory:(NSString* __nonnull)cacheDirectory;
 

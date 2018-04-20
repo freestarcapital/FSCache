@@ -62,16 +62,32 @@ static inline NSString* cachePathForKey(NSString* directory, NSString* key) {
 	return instance;
 }
 
-- (instancetype)init {
-	NSString* cachesDirectory = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES)[0];
-	NSString* oldCachesDirectory = [[[cachesDirectory stringByAppendingPathComponent:[[NSProcessInfo processInfo] processName]] stringByAppendingPathComponent:@"FSCache"] copy];
++ (instancetype)cacheWithPrefix:(NSString*)prefix {
+    static id instance;
+    
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        instance = [[[self class] alloc] initWithPrefix:prefix];
+    });
+    
+    return instance;
+}
 
-	if([[NSFileManager defaultManager] fileExistsAtPath:oldCachesDirectory]) {
-		[[NSFileManager defaultManager] removeItemAtPath:oldCachesDirectory error:NULL];
-	}
-	
-	cachesDirectory = [[[cachesDirectory stringByAppendingPathComponent:[[NSBundle mainBundle] bundleIdentifier]] stringByAppendingPathComponent:@"FSCache"] copy];
-	return [self initWithCacheDirectory:cachesDirectory];
+- (instancetype)initWithPrefix:(NSString*)prefix {
+    NSParameterAssert(prefix);
+    return [self initWithCacheDirectory:[self cachesDirectoryWithPrefix:prefix]];
+}
+
+- (instancetype)init {
+	return [self initWithCacheDirectory:[self cachesDirectoryWithPrefix:@"global"]];
+}
+
+- (NSString*)cachesDirectoryWithPrefix:(NSString*)prefix {
+    NSParameterAssert(prefix);
+    NSString* directoryName = [NSString stringWithFormat:@"%@.FSCache", prefix];
+    NSString* cachesDirectory = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES)[0];
+    cachesDirectory = [[[cachesDirectory stringByAppendingPathComponent:[[NSBundle mainBundle] bundleIdentifier]] stringByAppendingPathComponent:directoryName] copy];
+    return cachesDirectory;
 }
 
 - (instancetype)initWithCacheDirectory:(NSString*)cacheDirectory {
