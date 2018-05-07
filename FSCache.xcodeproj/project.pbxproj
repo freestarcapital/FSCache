@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		054FAAEB20A0D4B9003BC6C4 /* FSCache+Instances.h in Headers */ = {isa = PBXBuildFile; fileRef = 054FAAE920A0D4B9003BC6C4 /* FSCache+Instances.h */; };
+		054FAAEC20A0D4B9003BC6C4 /* FSCache+Instances.m in Sources */ = {isa = PBXBuildFile; fileRef = 054FAAEA20A0D4B9003BC6C4 /* FSCache+Instances.m */; };
 		28AE5DDB1F92B21F00C1BA82 /* FSCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 28AE5DD81F92B1C600C1BA82 /* FSCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28AE5DDC1F92B21F00C1BA82 /* FSCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 28AE5DD81F92B1C600C1BA82 /* FSCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28AE5DDD1F92B21F00C1BA82 /* FSCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 28AE5DD81F92B1C600C1BA82 /* FSCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		054FAAE920A0D4B9003BC6C4 /* FSCache+Instances.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FSCache+Instances.h"; sourceTree = "<group>"; };
+		054FAAEA20A0D4B9003BC6C4 /* FSCache+Instances.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FSCache+Instances.m"; sourceTree = "<group>"; };
 		28AE5DA11F92B07400C1BA82 /* FSCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FSCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28AE5DAE1F92B08E00C1BA82 /* FSCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FSCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28AE5DBB1F92B09700C1BA82 /* FSCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FSCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,6 +88,8 @@
 			children = (
 				28AE5DD81F92B1C600C1BA82 /* FSCache.h */,
 				28AE5DD71F92B1C600C1BA82 /* FSCache.m */,
+				054FAAE920A0D4B9003BC6C4 /* FSCache+Instances.h */,
+				054FAAEA20A0D4B9003BC6C4 /* FSCache+Instances.m */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -104,6 +110,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AE5DDB1F92B21F00C1BA82 /* FSCache.h in Headers */,
+				054FAAEB20A0D4B9003BC6C4 /* FSCache+Instances.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				054FAAEC20A0D4B9003BC6C4 /* FSCache+Instances.m in Sources */,
 				28AE5DE81F92B5FD00C1BA82 /* FSCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

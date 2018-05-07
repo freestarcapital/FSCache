@@ -21,6 +21,7 @@
 //
 
 #import "FSCache.h"
+#import "FSCache+Instances.h"
 
 #if DEBUG
 #	define CHECK_FOR_FSCACHE_PLIST() if([key isEqualToString:@"FSCache.plist"]) { \
@@ -62,15 +63,75 @@ static inline NSString* cachePathForKey(NSString* directory, NSString* key) {
 	return instance;
 }
 
-+ (instancetype)cacheWithPrefix:(NSString*)prefix {
-    static id instance;
++ (NSMutableOrderedSet<NSString*>*)instanceSet {
+    static NSMutableOrderedSet<NSString*> *instanceSet;
     
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        instance = [[[self class] alloc] initWithPrefix:prefix];
+    static dispatch_once_t onceTokenSet;
+    dispatch_once(&onceTokenSet, ^{
+        instanceSet = [[NSMutableOrderedSet alloc] init];
     });
     
-    return instance;
+    return instanceSet;
+}
+
++ (dispatch_queue_t)instanceQueue {
+    static dispatch_queue_t instanceQueue;
+    
+    static dispatch_once_t onceTokenInstance;
+    dispatch_once(&onceTokenInstance, ^{
+        instanceQueue = dispatch_queue_create("io.freestar.mobile.cache.instance", DISPATCH_QUEUE_SERIAL);
+    });
+    
+    return instanceQueue;
+}
+
++ (instancetype)cacheWithPrefix:(NSString*)prefix {
+    NSParameterAssert(prefix);
+    
+    __block id cache = nil;
+    dispatch_sync([self instanceQueue], ^{
+        BOOL isCacheInitialized = [[self instanceSet] containsObject:prefix];
+        if (!isCacheInitialized) {
+            [[self instanceSet] addObject:prefix];
+        }
+        NSUInteger index = [[self instanceSet] indexOfObject:prefix];
+        switch (index) {
+            case 0:
+                cache = [self cacheInstance0];
+                break;
+            case 1:
+                cache = [self cacheInstance1];
+                break;
+            case 2:
+                cache = [self cacheInstance2];
+                break;
+            case 3:
+                cache = [self cacheInstance3];
+                break;
+            case 4:
+                cache = [self cacheInstance4];
+                break;
+            case 5:
+                cache = [self cacheInstance5];
+                break;
+            case 6:
+                cache = [self cacheInstance6];
+                break;
+            case 7:
+                cache = [self cacheInstance7];
+                break;
+            case 8:
+                cache = [self cacheInstance8];
+                break;
+            case 9:
+                cache = [self cacheInstance9];
+                break;
+            default:
+                break;
+        }
+    });
+    
+    return cache;
 }
 
 - (instancetype)initWithPrefix:(NSString*)prefix {
