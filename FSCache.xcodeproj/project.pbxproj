@@ -21,8 +21,14 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		054FAAEB20A0D4B9003BC6C4 /* FSCache+Instances.h in Headers */ = {isa = PBXBuildFile; fileRef = 054FAAE920A0D4B9003BC6C4 /* FSCache+Instances.h */; };
 		054FAAEC20A0D4B9003BC6C4 /* FSCache+Instances.m in Sources */ = {isa = PBXBuildFile; fileRef = 054FAAEA20A0D4B9003BC6C4 /* FSCache+Instances.m */; };
+		05D2E6ED20BDFE2700C71A43 /* FSCache+Instances.h in Headers */ = {isa = PBXBuildFile; fileRef = 054FAAE920A0D4B9003BC6C4 /* FSCache+Instances.h */; };
+		05D2E6EE20BDFE2A00C71A43 /* FSCache+Instances.h in Headers */ = {isa = PBXBuildFile; fileRef = 054FAAE920A0D4B9003BC6C4 /* FSCache+Instances.h */; };
+		05D2E6EF20BDFE2F00C71A43 /* FSCache+Instances.h in Headers */ = {isa = PBXBuildFile; fileRef = 054FAAE920A0D4B9003BC6C4 /* FSCache+Instances.h */; };
+		05D2E6F020BDFE2F00C71A43 /* FSCache+Instances.h in Headers */ = {isa = PBXBuildFile; fileRef = 054FAAE920A0D4B9003BC6C4 /* FSCache+Instances.h */; };
+		05D2E6F120BDFE3700C71A43 /* FSCache+Instances.m in Sources */ = {isa = PBXBuildFile; fileRef = 054FAAEA20A0D4B9003BC6C4 /* FSCache+Instances.m */; };
+		05D2E6F220BDFE3700C71A43 /* FSCache+Instances.m in Sources */ = {isa = PBXBuildFile; fileRef = 054FAAEA20A0D4B9003BC6C4 /* FSCache+Instances.m */; };
+		05D2E6F320BDFE3700C71A43 /* FSCache+Instances.m in Sources */ = {isa = PBXBuildFile; fileRef = 054FAAEA20A0D4B9003BC6C4 /* FSCache+Instances.m */; };
 		28AE5DDB1F92B21F00C1BA82 /* FSCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 28AE5DD81F92B1C600C1BA82 /* FSCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28AE5DDC1F92B21F00C1BA82 /* FSCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 28AE5DD81F92B1C600C1BA82 /* FSCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28AE5DDD1F92B21F00C1BA82 /* FSCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 28AE5DD81F92B1C600C1BA82 /* FSCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -124,7 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AE5DDB1F92B21F00C1BA82 /* FSCache.h in Headers */,
-				054FAAEB20A0D4B9003BC6C4 /* FSCache+Instances.h in Headers */,
+				05D2E6EE20BDFE2A00C71A43 /* FSCache+Instances.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AE5DDC1F92B21F00C1BA82 /* FSCache.h in Headers */,
+				05D2E6EF20BDFE2F00C71A43 /* FSCache+Instances.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AE5DDD1F92B21F00C1BA82 /* FSCache.h in Headers */,
+				05D2E6F020BDFE2F00C71A43 /* FSCache+Instances.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AE5DDE1F92B22000C1BA82 /* FSCache.h in Headers */,
+				05D2E6ED20BDFE2700C71A43 /* FSCache+Instances.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +349,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05D2E6F120BDFE3700C71A43 /* FSCache+Instances.m in Sources */,
 				28AE5DE51F92B5FB00C1BA82 /* FSCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,6 +358,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05D2E6F220BDFE3700C71A43 /* FSCache+Instances.m in Sources */,
 				28AE5DE61F92B5FC00C1BA82 /* FSCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,6 +367,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05D2E6F320BDFE3700C71A43 /* FSCache+Instances.m in Sources */,
 				28AE5DE71F92B5FC00C1BA82 /* FSCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
