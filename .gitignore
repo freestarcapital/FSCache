@@ -64,3 +64,4 @@ FSCache.xcodeproj/project.xcworkspace/xcshareddata
 build/FSCache.build
 build/Headers
 build/Modules
+Info.plist
