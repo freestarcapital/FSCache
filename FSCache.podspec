@@ -10,4 +10,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.ios.deployment_target  = "8.0"
   s.ios.vendored_frameworks = "build/FSCache.framework"
+  s.static_framework = true
 end
