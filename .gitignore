@@ -62,6 +62,5 @@ fastlane/test_output
 iOSInjectionProject/
 FSCache.xcodeproj/project.xcworkspace/xcshareddata
 build/FSCache.build
-Info.plist
 build/Headers
 build/Modules
