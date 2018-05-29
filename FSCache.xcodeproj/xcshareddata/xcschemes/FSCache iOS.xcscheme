@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "28AE5DC71F92B0A500C1BA82"
                BuildableName = "FSCache.framework"
-               BlueprintName = "FSCache iOS"
+               BlueprintName = "FSCache"
                ReferencedContainer = "container:FSCache.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,7 +47,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "28AE5DC71F92B0A500C1BA82"
             BuildableName = "FSCache.framework"
-            BlueprintName = "FSCache iOS"
+            BlueprintName = "FSCache"
             ReferencedContainer = "container:FSCache.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,7 +65,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "28AE5DC71F92B0A500C1BA82"
             BuildableName = "FSCache.framework"
-            BlueprintName = "FSCache iOS"
+            BlueprintName = "FSCache"
             ReferencedContainer = "container:FSCache.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
