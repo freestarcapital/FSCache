@@ -21,30 +21,15 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		054FAAEC20A0D4B9003BC6C4 /* FSCache+Instances.m in Sources */ = {isa = PBXBuildFile; fileRef = 054FAAEA20A0D4B9003BC6C4 /* FSCache+Instances.m */; };
 		05D2E6ED20BDFE2700C71A43 /* FSCache+Instances.h in Headers */ = {isa = PBXBuildFile; fileRef = 054FAAE920A0D4B9003BC6C4 /* FSCache+Instances.h */; };
-		05D2E6EE20BDFE2A00C71A43 /* FSCache+Instances.h in Headers */ = {isa = PBXBuildFile; fileRef = 054FAAE920A0D4B9003BC6C4 /* FSCache+Instances.h */; };
-		05D2E6EF20BDFE2F00C71A43 /* FSCache+Instances.h in Headers */ = {isa = PBXBuildFile; fileRef = 054FAAE920A0D4B9003BC6C4 /* FSCache+Instances.h */; };
-		05D2E6F020BDFE2F00C71A43 /* FSCache+Instances.h in Headers */ = {isa = PBXBuildFile; fileRef = 054FAAE920A0D4B9003BC6C4 /* FSCache+Instances.h */; };
-		05D2E6F120BDFE3700C71A43 /* FSCache+Instances.m in Sources */ = {isa = PBXBuildFile; fileRef = 054FAAEA20A0D4B9003BC6C4 /* FSCache+Instances.m */; };
-		05D2E6F220BDFE3700C71A43 /* FSCache+Instances.m in Sources */ = {isa = PBXBuildFile; fileRef = 054FAAEA20A0D4B9003BC6C4 /* FSCache+Instances.m */; };
 		05D2E6F320BDFE3700C71A43 /* FSCache+Instances.m in Sources */ = {isa = PBXBuildFile; fileRef = 054FAAEA20A0D4B9003BC6C4 /* FSCache+Instances.m */; };
-		28AE5DDB1F92B21F00C1BA82 /* FSCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 28AE5DD81F92B1C600C1BA82 /* FSCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28AE5DDC1F92B21F00C1BA82 /* FSCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 28AE5DD81F92B1C600C1BA82 /* FSCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28AE5DDD1F92B21F00C1BA82 /* FSCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 28AE5DD81F92B1C600C1BA82 /* FSCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28AE5DDE1F92B22000C1BA82 /* FSCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 28AE5DD81F92B1C600C1BA82 /* FSCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28AE5DE51F92B5FB00C1BA82 /* FSCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AE5DD71F92B1C600C1BA82 /* FSCache.m */; };
-		28AE5DE61F92B5FC00C1BA82 /* FSCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AE5DD71F92B1C600C1BA82 /* FSCache.m */; };
 		28AE5DE71F92B5FC00C1BA82 /* FSCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AE5DD71F92B1C600C1BA82 /* FSCache.m */; };
-		28AE5DE81F92B5FD00C1BA82 /* FSCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AE5DD71F92B1C600C1BA82 /* FSCache.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		054FAAE920A0D4B9003BC6C4 /* FSCache+Instances.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FSCache+Instances.h"; sourceTree = "<group>"; };
 		054FAAEA20A0D4B9003BC6C4 /* FSCache+Instances.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FSCache+Instances.m"; sourceTree = "<group>"; };
-		28AE5DA11F92B07400C1BA82 /* FSCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FSCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		28AE5DAE1F92B08E00C1BA82 /* FSCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FSCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		28AE5DBB1F92B09700C1BA82 /* FSCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FSCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28AE5DC81F92B0A500C1BA82 /* FSCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FSCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28AE5DD71F92B1C600C1BA82 /* FSCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSCache.m; sourceTree = "<group>"; };
 		28AE5DD81F92B1C600C1BA82 /* FSCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSCache.h; sourceTree = "<group>"; };
@@ -52,27 +37,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		28AE5D9D1F92B07400C1BA82 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		28AE5DAA1F92B08E00C1BA82 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		28AE5DB71F92B09700C1BA82 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		28AE5DC41F92B0A500C1BA82 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -95,9 +59,6 @@
 		28AE5D6E1F92AEA000C1BA82 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				28AE5DA11F92B07400C1BA82 /* FSCache.framework */,
-				28AE5DAE1F92B08E00C1BA82 /* FSCache.framework */,
-				28AE5DBB1F92B09700C1BA82 /* FSCache.framework */,
 				28AE5DC81F92B0A500C1BA82 /* FSCache.framework */,
 			);
 			name = Products;
@@ -117,33 +78,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		28AE5D9E1F92B07400C1BA82 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				28AE5DDB1F92B21F00C1BA82 /* FSCache.h in Headers */,
-				05D2E6EE20BDFE2A00C71A43 /* FSCache+Instances.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		28AE5DAB1F92B08E00C1BA82 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				28AE5DDC1F92B21F00C1BA82 /* FSCache.h in Headers */,
-				05D2E6EF20BDFE2F00C71A43 /* FSCache+Instances.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		28AE5DB81F92B09700C1BA82 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				28AE5DDD1F92B21F00C1BA82 /* FSCache.h in Headers */,
-				05D2E6F020BDFE2F00C71A43 /* FSCache+Instances.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		28AE5DC51F92B0A500C1BA82 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -156,60 +90,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		28AE5DA01F92B07400C1BA82 /* FSCache macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 28AE5DA61F92B07400C1BA82 /* Build configuration list for PBXNativeTarget "FSCache macOS" */;
-			buildPhases = (
-				28AE5D9C1F92B07400C1BA82 /* Sources */,
-				28AE5D9D1F92B07400C1BA82 /* Frameworks */,
-				28AE5D9E1F92B07400C1BA82 /* Headers */,
-				28AE5D9F1F92B07400C1BA82 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "FSCache macOS";
-			productName = "EGOCache macOS";
-			productReference = 28AE5DA11F92B07400C1BA82 /* FSCache.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		28AE5DAD1F92B08E00C1BA82 /* FSCache watchOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 28AE5DB31F92B08E00C1BA82 /* Build configuration list for PBXNativeTarget "FSCache watchOS" */;
-			buildPhases = (
-				28AE5DA91F92B08E00C1BA82 /* Sources */,
-				28AE5DAA1F92B08E00C1BA82 /* Frameworks */,
-				28AE5DAB1F92B08E00C1BA82 /* Headers */,
-				28AE5DAC1F92B08E00C1BA82 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "FSCache watchOS";
-			productName = "EGOCache watchOS";
-			productReference = 28AE5DAE1F92B08E00C1BA82 /* FSCache.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		28AE5DBA1F92B09700C1BA82 /* FSCache tvOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 28AE5DC01F92B09700C1BA82 /* Build configuration list for PBXNativeTarget "FSCache tvOS" */;
-			buildPhases = (
-				28AE5DB61F92B09700C1BA82 /* Sources */,
-				28AE5DB71F92B09700C1BA82 /* Frameworks */,
-				28AE5DB81F92B09700C1BA82 /* Headers */,
-				28AE5DB91F92B09700C1BA82 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "FSCache tvOS";
-			productName = "EGOCache tvOS";
-			productReference = 28AE5DBB1F92B09700C1BA82 /* FSCache.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		28AE5DC71F92B0A500C1BA82 /* FSCache */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28AE5DCD1F92B0A500C1BA82 /* Build configuration list for PBXNativeTarget "FSCache" */;
@@ -241,18 +121,6 @@
 						CreatedOnToolsVersion = 9.3;
 						ProvisioningStyle = Automatic;
 					};
-					28AE5DA01F92B07400C1BA82 = {
-						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Manual;
-					};
-					28AE5DAD1F92B08E00C1BA82 = {
-						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Manual;
-					};
-					28AE5DBA1F92B09700C1BA82 = {
-						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Manual;
-					};
 					28AE5DC71F92B0A500C1BA82 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
@@ -271,9 +139,6 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				28AE5DA01F92B07400C1BA82 /* FSCache macOS */,
-				28AE5DAD1F92B08E00C1BA82 /* FSCache watchOS */,
-				28AE5DBA1F92B09700C1BA82 /* FSCache tvOS */,
 				28AE5DC71F92B0A500C1BA82 /* FSCache */,
 				05D2E6E820BDF55100C71A43 /* Universal-FSCache */,
 			);
@@ -281,27 +146,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		28AE5D9F1F92B07400C1BA82 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		28AE5DAC1F92B08E00C1BA82 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		28AE5DB91F92B09700C1BA82 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		28AE5DC61F92B0A500C1BA82 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -328,33 +172,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		28AE5D9C1F92B07400C1BA82 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				054FAAEC20A0D4B9003BC6C4 /* FSCache+Instances.m in Sources */,
-				28AE5DE81F92B5FD00C1BA82 /* FSCache.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		28AE5DA91F92B08E00C1BA82 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				05D2E6F120BDFE3700C71A43 /* FSCache+Instances.m in Sources */,
-				28AE5DE51F92B5FB00C1BA82 /* FSCache.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		28AE5DB61F92B09700C1BA82 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				05D2E6F220BDFE3700C71A43 /* FSCache+Instances.m in Sources */,
-				28AE5DE61F92B5FC00C1BA82 /* FSCache.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		28AE5DC31F92B0A500C1BA82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -499,148 +316,6 @@
 			};
 			name = Release;
 		};
-		28AE5DA71F92B07400C1BA82 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Manual;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				PRODUCT_BUNDLE_IDENTIFIER = io.freestar.mobile.FSCache;
-				PRODUCT_NAME = FSCache;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		28AE5DA81F92B07400C1BA82 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Manual;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				PRODUCT_BUNDLE_IDENTIFIER = io.freestar.mobile.FSCache;
-				PRODUCT_NAME = FSCache;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		28AE5DB41F92B08E00C1BA82 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Manual;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.freestar.mobile.FSCache;
-				PRODUCT_NAME = FSCache;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.2;
-			};
-			name = Debug;
-		};
-		28AE5DB51F92B08E00C1BA82 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Manual;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.freestar.mobile.FSCache;
-				PRODUCT_NAME = FSCache;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.2;
-			};
-			name = Release;
-		};
-		28AE5DC11F92B09700C1BA82 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Manual;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.freestar.mobile.FSCache;
-				PRODUCT_NAME = FSCache;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-			};
-			name = Debug;
-		};
-		28AE5DC21F92B09700C1BA82 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Manual;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.freestar.mobile.FSCache;
-				PRODUCT_NAME = FSCache;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-			};
-			name = Release;
-		};
 		28AE5DCE1F92B0A500C1BA82 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -657,7 +332,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_CFLAGS = "-fembed-bitcode-marker";
-				PRODUCT_BUNDLE_IDENTIFIER = io.freestar.mobile.FSCache;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.FSCache;
 				PRODUCT_NAME = FSCache;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = NO;
@@ -684,7 +359,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_CFLAGS = "-fembed-bitcode";
-				PRODUCT_BUNDLE_IDENTIFIER = io.freestar.mobile.FSCache;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.FSCache;
 				PRODUCT_NAME = FSCache;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = NO;
@@ -712,33 +387,6 @@
 			buildConfigurations = (
 				28AE5D731F92AEA000C1BA82 /* Debug */,
 				28AE5D741F92AEA000C1BA82 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		28AE5DA61F92B07400C1BA82 /* Build configuration list for PBXNativeTarget "FSCache macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				28AE5DA71F92B07400C1BA82 /* Debug */,
-				28AE5DA81F92B07400C1BA82 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		28AE5DB31F92B08E00C1BA82 /* Build configuration list for PBXNativeTarget "FSCache watchOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				28AE5DB41F92B08E00C1BA82 /* Debug */,
-				28AE5DB51F92B08E00C1BA82 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		28AE5DC01F92B09700C1BA82 /* Build configuration list for PBXNativeTarget "FSCache tvOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				28AE5DC11F92B09700C1BA82 /* Debug */,
-				28AE5DC21F92B09700C1BA82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
