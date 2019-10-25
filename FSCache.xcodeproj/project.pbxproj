@@ -114,7 +114,7 @@
 		28AE5D641F92AEA000C1BA82 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = Freestar;
 				TargetAttributes = {
 					05D2E6E820BDF55100C71A43 = {
@@ -133,6 +133,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 28AE5D631F92AEA000C1BA82;
 			productRefGroup = 28AE5D6E1F92AEA000C1BA82 /* Products */;
@@ -319,7 +320,7 @@
 		28AE5DCE1F92B0A500C1BA82 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
@@ -331,6 +332,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 2.2.1;
 				OTHER_CFLAGS = "-fembed-bitcode-marker";
 				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.FSCache;
 				PRODUCT_NAME = FSCache;
@@ -346,7 +348,7 @@
 		28AE5DCF1F92B0A500C1BA82 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
@@ -358,6 +360,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 2.2.1;
 				OTHER_CFLAGS = "-fembed-bitcode";
 				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.FSCache;
 				PRODUCT_NAME = FSCache;
