@@ -65,3 +65,4 @@ build/FSCache.build
 build/Headers
 build/Modules
 Info.plist
+build/XCBuildData
